@@ -1,0 +1,7 @@
+---
+- name: remover http 
+  host: inf1-testeansible
+  task:
+   - name: remover httpd 
+    state: absent 
+    
